@@ -1,1 +1,38 @@
-/* место для вашего кода */
+.container {
+  padding: 90px 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  min-width: 388px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: circle;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 148px;
+  height: 105px;
+  background-image: url(../images/logo-black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__contacts {
+  max-width: 240px;
+}
+
+.header__contacts-list {
+  list-style: none;
+}
